@@ -1,4 +1,9 @@
-# Duvisto
+<h1>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset=".github/brand/logo-dark.png">
+    <img src=".github/brand/logo-light.png" alt="Duvisto" width="206">
+  </picture>
+</h1>
 
 Web sitelerini gerçek Chromium görünümlerinde, gerçek cihaz emülasyonuyla yan yana açıp canlı kıyaslayan masaüstü uygulaması.
 
@@ -10,13 +15,13 @@ Web sitelerini gerçek Chromium görünümlerinde, gerçek cihaz emülasyonuyla 
 
 En son sürüm: **[Releases](https://github.com/duvisto/duvisto/releases/latest)**
 
-| Bilgisayar | Dosya |
-|---|---|
-| Mac, Apple Silicon (M1 ve sonrası) | `Duvisto-X.Y.Z-arm64.dmg` |
-| Mac, Intel | `Duvisto-X.Y.Z-x64.dmg` |
-| Windows 10 / 11 (64 bit) | `Duvisto-Setup-X.Y.Z-x64.exe` |
-| Ubuntu / Debian | `Duvisto-X.Y.Z-amd64.deb` |
-| Diğer Linux | `Duvisto-X.Y.Z-linux-x86_64.AppImage` |
+| Bilgisayar                         | Dosya                                 |
+| ---------------------------------- | ------------------------------------- |
+| Mac, Apple Silicon (M1 ve sonrası) | `Duvisto-X.Y.Z-arm64.dmg`             |
+| Mac, Intel                         | `Duvisto-X.Y.Z-x64.dmg`               |
+| Windows 10 / 11 (64 bit)           | `Duvisto-Setup-X.Y.Z-x64.exe`         |
+| Ubuntu / Debian                    | `Duvisto-X.Y.Z-amd64.deb`             |
+| Diğer Linux                        | `Duvisto-X.Y.Z-linux-x86_64.AppImage` |
 
 Mac'te hangisi? Elma menüsü → Bu Mac Hakkında: "Çip: Apple M…" ise Apple Silicon, "İşlemci: Intel" ise Intel.
 

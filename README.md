@@ -27,16 +27,14 @@ Mac'te hangisi? Elma menüsü → Bu Mac Hakkında: "Çip: Apple M…" ise Apple
 
 ## İlk açılış
 
-Uygulama henüz imzasız olduğundan sistem ilk açılışta bir kez uyarır:
-
-- **macOS:** Uygulamayı Applications klasörüne sürükleyip açın. Uyarı çıkınca **Sistem Ayarları → Gizlilik ve Güvenlik → Yine de Aç**.
-- **Windows:** "Windows bilgisayarınızı korudu" ekranında **Ek bilgi → Yine de çalıştır**.
+- **macOS:** Uygulamayı Applications klasörüne sürükleyip açın. Paket Apple tarafından doğrulanmıştır; "İnternet'ten indirildi" sorusuna **Aç** demeniz yeterli.
+- **Windows:** Paket henüz imzasız; "Windows bilgisayarınızı korudu" ekranında **Ek bilgi → Yine de çalıştır**.
 - **Ubuntu / Debian:** `.deb` dosyasına çift tıklayın ya da `sudo apt install ./Duvisto-*.deb`.
 - **AppImage:** `chmod +x Duvisto-*.AppImage`, sonra çalıştırın.
 
 ## Güncelleme
 
-Uygulama yeni sürümleri kendisi denetler (Yardım → Güncellemeleri denetle). Windows ve Linux'ta güncelleme uygulama içinden kurulur; macOS'ta imzalı sürüme kadar yeni sürümü buradan indirin.
+Uygulama yeni sürümleri kendisi denetler ve uygulama içinden kurar (Yardım → Güncellemeleri denetle). macOS'ta 0.6.2 ve önceki sürümler imzasız olduğundan 0.6.3'ü bir kez elle indirin; sonrası otomatik.
 
 ## Sorun bildir
 
